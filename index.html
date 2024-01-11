@@ -1,193 +1,356 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title>Moshify</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 
-  <!-- Google Fonts -->
-
-  <!-- CSS Links -->
-  <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-
+    <title>Hostify.com</title>
 </head>
 
 <body>
-  <!-- Start header area  -->
-  <header class="header-area">
-    <div class="container">
-
-      <!-- Menu area  -->
-      <div class="header-wrapper">
-        <div class="logo-area">
-          <div class="logo-wrapper">
-            <a href="index.html"><img src="assets/images/Logo/logo.svg" alt="logo"></a>
-          </div>
-          <div class="dropdown-icon">
-            <div class="menu-icon">
-
+    <!-- header section -->
+    <section class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
             </div>
-          </div>
-        </div>
-        <div class="nav-bar">
-          <div class="nav-menu">
-            <ul>
-              <li><a href="index.html">Hosting</a></li>
-              <li><a href="index.html">VPS</a></li>
-              <li><a href="index.html">Domain</a></li>
-              <li><a href="index.html">Pricing</a></li>
+            <ul class="nav-list">
+                <li><a href="#">Hosting</a></li>
+                <li><a href="#">VPS</a></li>
+                <li>
+                    <a href="#">Domain</a>
+                </li>
+                <li><a href="#">pricing</a></li>
             </ul>
-          </div>
-        </div>
-      </div>
-      <!-- Menu Area  -->
-
-      <div class="banner-area">
-        <div class="row">
-          <div class="col-6">
-            <h1>Cloud Hosting for Pros</h1>
-            <p>Deploy your website in less than 60 seconds.</p>
-            <a href="#" class="btn">Get STARTED</a>
-          </div>
-          <div class="col-6">
-            <div class="banner-image">
-              <img src="assets/images/banner.png" alt="banner" loading="lazy">
+            <div class="burger-menu" onclick="toggleMenu()">
+                <i class='bx bx-menu bar'></i>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- End Header area  -->
-  <main>
-    <!-- the best web hosting section Start  -->
-    <section class="best-web section-padding">
-      <div class="container">
-        <div class="section-title">
-          <h2>The best webhosting Starting at per month</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. </p>
-
-          <div class="subscribe-eamil">
-            <form action="">
-              <input type="email" name="email" id="email" placeholder="Enter domain name here . . .">
-              <button class="btn btn-submit" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
-            </form>
-          </div>
-
-          <div class="domain-name">
-            <ul>
-              <li><a href="#">.com $9.26</a></li>
-              <li><a href="#">.sg $7.91</a></li>
-              <li><a href="#">.space $12.98</a></li>
-              <li><a href="#">.info $14.15</a></li>
-              <li><a href="#">.net $16.15</a></li>
-              <li><a href="#">.xyz $10.15</a></li>
-              <li><a href="#">More</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div class="card-body-heading">
-                <div class="card-heading">
-                  <p>Entry</p>
-                  <h2>$14 <span>/month</span></h2>
-                  <div class="bonas">
-                    <h5>10% OFF </h5>
-                  </div>
-                  <p class="discription">Easy start on the cloud</p>
-                </div>
-              </div>
-              <div class="card-body">
-                <ul>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Websites
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Bandwidth
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 100 GB SSD Storage
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 3 GB RAM
-                  </li>
-                </ul>
-
-                <a href="#" class="card-btn">Buy Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body-heading middel">
-                <div class="card-heading">
-                  <p>Entry</p>
-                  <h2>$14 <span>/month</span></h2>
-                  <div class="bonas">
-                    <h5>20% OFF </h5>
-                  </div>
-                  <p class="discription">Easy start on the cloud</p>
-                </div>
-              </div>
-              <div class="card-body">
-                <ul>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Websites
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Bandwidth
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 100 GB SSD Storage
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 3 GB RAM
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 2 CPU Cores
-                  </li>
-                </ul>
-
-                <a href="#" class="card-btn">Buy Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div class="card-body-heading">
-                <div class="card-heading">
-                  <p>Entry</p>
-                  <h2>$14 <span>/month</span></h2>
-                  <div class="bonas">
-                    <h5>10% OFF </h5>
-                  </div>
-                  <p class="discription">Easy start on the cloud</p>
-                </div>
-              </div>
-              <div class="card-body">
-                <ul>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Websites
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> Unlimited Bandwidth
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 100 GB SSD Storage
-                  </li>
-                  <li><i class="fa-solid fa-check"></i> 3 GB RAM
-                </ul>
-
-                <a href="#" class="card-btn">Buy Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </nav>
     </section>
-    <!-- the best web hosting section End  -->
-  </main>
 
-  <footer>
-    <!-- place footer here -->
-  </footer>
 
-  <!-- JavaScript Libraries -->
-  <script src="assets/js/scripts.js"></script>
+    <!-- hero section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Cloud Hosting for Pros</h2>
+                <small>Deploy your website in less then 60 seconds</small>
+                <button>Get started</button>
+            </div>
+            <div>
+                <img src="img/banner.png" alt="banner">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- search section -->
+    <section class="search">
+        <div class="searchContent">
+            <h2>the best webhosting starting at per mounth</h2>
+            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ipsam eaque amet quisquam quasi
+                atque.</small>
+            <div class="search-container">
+                <input type="text" placeholder="Enter your domain name here ...">
+                <button type="submit">
+                    <i class='bx bx-search-alt-2'></i>
+                    <span>
+                        search
+                    </span>
+                </button>
+            </div>
+            <ul class="domain">
+                <li>.com $9.26</li>
+                <li>.sg $7.91</li>
+                <li>.space $12.98</li>
+                <li>.info $14.15</li>
+                <li>.net $16.15</li>
+                <li>.xyz $10.15</li>
+                <a href="#">More.</a>
+            </ul>
+        </div>
+    </section>
+
+    <!-- product card section -->
+
+    <section class="card">
+        <div class="products">
+            <!-- product1 -->
+            <div>
+                <div class="head">
+                    <small>entry</small>
+                    <div class="price">
+                        <h2>$14</h2>
+                        <small>/mounth</small>
+                        <small class="off">10% OFF</small>
+                    </div>
+                    <small>easy start on the cloude</small>
+                </div>
+                <ul>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Websites</li>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Bandwidth</li>
+                    <li><i class='bx bx-check-circle'></i>100 GB SSD Storage</li>
+                    <li><i class='bx bx-check-circle'></i>3 GB RAM</li>
+                </ul>
+
+                <div class="button">
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+            <!-- product2 -->
+
+            <div class="best">
+                <div class="head">
+                    <span class="populer">populer</span>
+                    <small>Business</small>
+                    <div class="price">
+                        <h2>$24</h2>
+                        <small>/mounth</small>
+                        <small class="off">20% OFF</small>
+                    </div>
+                    <small>Optimal Cloud Experience</small>
+                </div>
+                <ul>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Websites</li>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Bandwidth</li>
+                    <li><i class='bx bx-check-circle'></i>100 GB SSD Storage</li>
+                    <li><i class='bx bx-check-circle'></i>3 GB RAM</li>
+                    <li><i class='bx bx-check-circle'></i>2 CPU Cores</li>
+                </ul>
+                <div class="button">
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+            <!-- product3 -->
+            <div>
+                <div class="head">
+                    <small>Business plus</small>
+                    <div class="price">
+                        <h2>$54</h2>
+                        <small>/mounth</small>
+                        <small class="off">10% OFF</small>
+                    </div>
+                    <small>Easy start on the cloud</small>
+                </div>
+                <ul>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Websites</li>
+                    <li><i class='bx bx-check-circle'></i>Unlimited Bandwidth</li>
+                    <li><i class='bx bx-check-circle'></i>100 GB SSD Storage</li>
+                    <li><i class='bx bx-check-circle'></i>3 GB RAM</li>
+                    <li><i class='bx bx-check-circle'></i>2 CPU Cores</li>
+                </ul>
+                <div class="button">
+                    <button>BUY NOW</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- service section -->
+
+    <section class="card-section">
+        <div class="tittle">
+            <h2>Host On The Cloud to Keep Growing</h2>
+            <small>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</small>
+        </div>
+        <!-- dunamic card from js -->
+        <div id="dynamicSectionsContainer"></div>
+    </section>
+
+
+    <!-- Control pannel section -->
+    <section class="pannel">
+        <h2 class="tittle">User-Friendly Control Panel</h2>
+        <div class="control">
+            <div class="pannelimg">
+                <img src="img/ipad.png" alt="Control pannel image">
+            </div>
+            <ul class="badge">
+                <div class="badgeContent">
+                    <img src="img/icone/snap.svg" alt="snap.svg">
+                    <div class="badgeText">
+                        <h2>Easy Start & Managed Updates</h2>
+                        <small>Our cloud plans include easy onboarding for new and existing sites and managed WordPress
+                            and WooCommerce auto-updates.</small>
+                    </div>
+                </div>
+                <div class="badgeContent">
+                    <img src="img/icone/growth.svg" alt="growth.svg">
+                    <div class="badgeText">
+                        <h2>Staging, Git & WP-CLI</h2>
+                        <small>We make your WordPress and WooCommerce development flow easier with a convenient staging
+                            tool and Git and WP-CLI integration.</small>
+                    </div>
+                </div>
+                <div class="badgeContent">
+                    <img src="img/icone/wordpress.svg" alt="wordpress.svg">
+                    <div class="badgeText">
+                        <h2>Dynamic Caching & More</h2>
+                        <small>Speed up your WordPress and Woo sites with our SG Optimizer plugin through smart dynamic
+                            caching and multiple other performance optimizations.</small>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- customer review section -->
+    <section class="customer">
+        <h2>What our Customer are Saying</h2>
+        <p class="text">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+        <div class="review">
+            <div class="reviewimg">
+                <img src="img/testimonial.jpg" alt="Control pannel image">
+            </div>
+            <ul class="badge">
+                <aside class="badgeContent">
+                    <img src="img/icone/quoto.svg" alt="snap.svg">
+                </aside>
+                <div class="badgeText">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis."</p>
+                    <div class="person">
+                        <img src="img/icone/line.svg" alt="line.svg">
+                        <div class="name">
+                            <h2>Jhone Lumeo</h2>
+                            <p>Mosh Company CEO</p>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </section>
+
+
+    
+    <!-- footer section -->
+    <footer>
+        
+        <div class="footer">
+            <div class="start">
+                <div>
+                    <h2>Ready To get Started ?</h2>
+                    <p>Choose the hosting provider that helps you start easy, build fast, and grow strong! It's risk-free with our 14-day money back</p>
+                </div>
+                <button>
+                    GET STARTED
+                </button>
+        
+            </div>
+        
+            <div class="footer-part">
+                <div class="single-footer ft">
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <p class="Copywrite">Copywrite &copy; 2024 Hostify</p>
+                </div>
+    
+                <div class="single-footer">
+                    <h3>PRODUCTS</h3>
+                    <ul>
+                        <li>
+                            <a href="#"> WordPress Hosting</a>
+                        </li>
+                        <li>
+                            <a href="#"> Free Automated WordPress</a>
+                        </li>
+                        <li>
+                            <a href="#"> Migrations</a>
+                        </li>
+                        <li>
+                            <a href="#"> Domain Names</a>
+                        </li>
+                        <li>
+                            <a href="#"> Monthly Web Hosting</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="single-footer">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li>
+                            <a href="#"> About</a>
+                        </li>
+                        <li>
+                            <a href="#"> Affiliates</a>
+                        </li>
+                        <li>
+                            <a href="#"> Blog</a>
+                        </li>
+                        <li>
+                            <a href="#"> Careers</a>
+                        </li>
+                        <li>
+                            <a href="#"> Community</a>
+                        </li>
+                        <li>
+                            <a href="#"> News</a>
+                        </li>
+                        <li>
+                            <a href="#"> Green Hosting</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="single-footer">
+                    <h3>SUPPORT</h3>
+                    <ul>
+                        <li>
+                            <a href="#"> Contact</a>
+                        </li>
+                        <li>
+                            <a href="#"> Knowledge Base</a>
+                        </li>
+                        <li>
+                            <a href="#"> Forums</a>
+                        </li>
+                        <li>
+                            <a href="#"> System Status</a>
+                        </li>
+                        <li>
+                            <a href="#"> Web Hosting</a>
+                        </li>
+                        <li>
+                            <a href="#"> DreamCompute</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="single-footer">
+                    <h3>DOMAINS</h3>
+                    <ul>
+                        <li>
+                            <a href="#"> Domain Checker</a>
+                        </li>
+                        <li>
+                            <a href="#"> Domain Transfer</a>
+                        </li>
+                        <li>
+                            <a href="#"> Free Domain</a>
+                        </li>
+                        <li>
+                            <a href="#"> XYZ Domain</a>
+                        </li>
+                        <li>
+                            <a href="#"> Cheap SSL Certificate</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
