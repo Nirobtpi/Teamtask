@@ -387,7 +387,7 @@ body {
 /* this is product card css */
 
 .card {
-  width: 90%;
+  width: 100%;
   height: auto;
   display: flex;
   margin: 80px auto;
