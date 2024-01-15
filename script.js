@@ -97,6 +97,7 @@ function initializeDynamicSections() {
             cardSection.classList.add("secondCard");
         }
     });
+
 }
 
 initializeDynamicSections();
